@@ -1,4 +1,4 @@
-# BowlingScoreCalculator
+# Bowling Score Calculator
 
 A command line application written in C# which calculates bowling scores based on user-supplied input.
 
