@@ -24,7 +24,7 @@ namespace BowlingScoreCalculator
             {
                 currentFrameNumber++;
                 totalScore += score;
-                Console.WriteLine($"Frame {currentFrameNumber}: {totalScore}");
+                Console.WriteLine($"Frame {currentFrameNumber}: {(currentFrameNumber < 10 ? " " : "")}{totalScore}");
             }
             Console.WriteLine();
             Console.WriteLine($"Your total score is: {frameScores.Sum()}");
